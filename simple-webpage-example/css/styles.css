@@ -9,6 +9,9 @@
 *::after {
   box-sizing: border-box;
 }
+ a{
+   color: #ca5e10;
+ }
 
 body {
   color: #414141;
@@ -36,6 +39,9 @@ h1 {
   color: #707070;
   font-size: 2.25rem;
   line-height: 1.2;
+}
+.lead {
+  font-size: 1.3125rem;
 }
 
 .container {
