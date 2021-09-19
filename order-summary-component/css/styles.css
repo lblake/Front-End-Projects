@@ -1,8 +1,25 @@
-/* Default CSS Styling */
+:root {
+  /* Primary Colours */
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral Colours */
+  --neutral-very-pale-blue: hsl(225, 100%, 98%);
+  --neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --neutral-dark-blue: hsl(223, 47%, 23%);
+
+  --attribution-blue: hsl(228, 45%, 44%);
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1rem;
 }
 /* Feel free to remove these styles or customise in your own stylesheet  */
 .attribution {
@@ -11,13 +28,5 @@
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-* {
-  font-family: 'Red Hat Display', sans-serif;
-}
-
-p {
-  font-size: 16px;
+  color: var(--attribution-blue);
 }
