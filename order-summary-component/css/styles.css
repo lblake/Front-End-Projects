@@ -15,13 +15,32 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 body {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: var(--primary-pale-blue);
+  background-image: url('../images/pattern-background-mobile.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-/* Feel free to remove these styles or customise in your own stylesheet  */
+
+img {
+  width: 100%;
+  height: 10.125rem;
+  background-size: cover;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+span {
+  margin: 10px 70px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -29,4 +48,21 @@ body {
 
 .attribution a {
   color: var(--attribution-blue);
+}
+
+.btn {
+  background-color: var(--primary-bright-blue);
+  color: white;
+  margin: 10px 60px;
+}
+.hero {
+}
+.card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.75rem;
 }
