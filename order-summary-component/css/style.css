@@ -29,6 +29,7 @@ body {
   background-image: url('../images/pattern-background-mobile.svg');
   background-size: 100%;
   background-repeat: no-repeat;
+  position: absolute;
 }
 h1 {
   font-size: 1.125rem;
@@ -45,8 +46,24 @@ img {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
+
+/* .music-image > img{
+  width: 10%;
+  height:auto;
+  
+} */
+
 span {
   margin: 10px 70px;
+}
+
+button {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+article > img {
+  width: 10%;
+  height: auto;
 }
 .attribution {
   font-size: 11px;
@@ -64,7 +81,7 @@ span {
 }
 .hero {
 }
-.card {
+/* .card {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -72,4 +89,31 @@ span {
   margin: 0 auto;
   background-color: #fff;
   border-radius: 0.75rem;
+} */
+
+.btn {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.btn-change {
+  background-color: transparent;
+  color: var(--primary-bright-blue);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.container {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
+}
+@media (min-width: 768px) {
+  .bg__image {
+    background: url('../images/pattern-background-desktop.svg') no-repeat
+      center/cover;
+    max-height: 50vh;
+  }
 }
