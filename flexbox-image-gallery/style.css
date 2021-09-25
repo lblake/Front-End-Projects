@@ -8,15 +8,23 @@ body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
 }
+.header > h1 {
+  color: #fff;
+}
 
+.header > p {
+  color: #fff;
+}
 .header {
   text-align: center;
   padding: 25px;
+  background-color: wheat;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
+  background-color: wheat;
 }
 .column {
   flex: 25%;
