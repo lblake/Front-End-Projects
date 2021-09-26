@@ -25,12 +25,18 @@ body {
   font-size: 1rem;
   min-height: 100vh;
   max-width: 100vw;
+  text-align: center;
   background-color: var(--primary-pale-blue);
   background-image: url('../images/pattern-background-mobile.svg');
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 h1 {
   font-size: 1.125rem;
   font-weight: 900;
@@ -47,12 +53,6 @@ img {
   border-top-right-radius: 0.75rem;
 }
 
-/* .music-image > img{
-  width: 10%;
-  height:auto;
-  
-} */
-
 span {
   margin: 10px 70px;
 }
@@ -62,8 +62,14 @@ button {
 }
 
 article > img {
-  width: 10%;
+  width: 20%;
   height: auto;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--neutral-desaturated-blue);
 }
 .attribution {
   font-size: 11px;
@@ -79,8 +85,7 @@ article > img {
   color: white;
   margin: 10px 60px;
 }
-.hero {
-}
+
 /* .card {
   width: 30%;
   display: flex;
@@ -95,6 +100,10 @@ article > img {
   border: none;
   padding: 5px 10px;
   border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-change {
@@ -103,17 +112,72 @@ article > img {
   text-decoration: underline;
   font-weight: bold;
 }
+
+.btn-primary {
+  background-color: var(--primary-bright-blue);
+  color: #fff;
+  padding: 10px;
+}
+
+.btn-primary:hover,
+.btn-change:hover {
+  opacity: 0.8;
+}
+.btn-secondary {
+  background-color: transparent;
+  color: var(--neutral-desaturated-blue);
+}
+
+.btn-secondary:hover {
+  color: var(--neutral-dark-blue);
+}
 .container {
   background-color: #fff;
   margin: 20px;
-  padding: 20px;
-  border-radius: 5px;
+  border-radius: 0.75rem;
   box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
 }
+
+.container .pricing {
+  margin: 30px auto;
+  padding: 10px;
+  background-color: var(--neutral-very-pale-blue);
+  width: 90%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .pricing article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .pricing article img {
+  margin-right: 10px;
+}
+
+.container .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container p.description {
+  padding: 0 30px;
+}
+
 @media (min-width: 768px) {
   .bg__image {
     background: url('../images/pattern-background-desktop.svg') no-repeat
       center/cover;
     max-height: 50vh;
+  }
+
+  .container {
+    width: 500px;
   }
 }
