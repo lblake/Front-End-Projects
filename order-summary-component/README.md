@@ -4,4 +4,4 @@ Styled the following challenge:
 
 https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 
-Using CSS and HTML
+Using CSS, (Flexbox) and HTML
