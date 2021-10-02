@@ -56,7 +56,7 @@ h1 {
   font-weight: 900;
   color: var(--neutral-dark-blue);
   margin-top: 1.825rem;
-  margin-bottom: -0.125rem;
+  margin-bottom: 10px;
   text-align: center;
 }
 img {
@@ -111,7 +111,12 @@ p {
 .btn-primary {
   background-color: var(--primary-bright-blue);
   color: #fff;
-  padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding: 15px 0;
+  width: 90%;
+  margin: 0;
+  font-weight: normal !important;
 }
 
 .btn-primary:hover,
@@ -132,6 +137,7 @@ p {
   padding-bottom: 20px;
   border-radius: 0.75rem;
   box-shadow: 3px 3px 3px hsl(228, 45%, 44%, 0.15);
+  max-width: 400px;
 }
 
 .container .pricing {
@@ -173,7 +179,7 @@ p {
     height: 50vh;
   }
 
-  .container {
-    width: 500px;
-  }
+  /* .container {
+    max-width: 500px;
+  } */
 }
