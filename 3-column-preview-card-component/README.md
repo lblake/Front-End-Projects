@@ -4,4 +4,4 @@ Styled the following challenge:
 
 https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-
 
-Using CSS, (Flexbox) and HTML
+Using CSS, (Flexbox) and HTML etc.
