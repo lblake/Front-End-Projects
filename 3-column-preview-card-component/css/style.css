@@ -26,7 +26,7 @@ body {
 
 img {
   position: absolute;
-  margin-left: 2.75em;
+  margin-left: 2.65em;
   margin-top: 1.25em;
 }
 p {
@@ -47,16 +47,20 @@ h1 {
 
 .btn {
   display: inline-block;
-  border: 2px solid black;
+  background-color: #fff;
   text-decoration: none;
   font-family: 'Big Shoulders Display', cursive;
   color: var(--Very-light-gray);
   padding: 1em 2.2em;
   border-radius: 100px;
-  background-color: grey;
-  /* margin-top: 100px; */
-  position: static;
+  bottom: 20px;
+  left: 35px;
+  position: absolute;
   cursor: pointer;
+}
+
+.btn-sedans {
+  color: var(--Bright-orange);
 }
 .sedans {
   background-color: var(--Bright-orange);
@@ -66,6 +70,9 @@ h1 {
   padding-left: 39px;
 }
 
+.btn-suvs {
+  color: var(--Dark-cyan);
+}
 .suvs {
   background-color: var(--Dark-cyan);
   height: 50vh;
@@ -75,6 +82,9 @@ h1 {
   /* margin-top: ; */
 }
 
+.btn-luxury {
+  color: var(--Very-dark-cyan);
+}
 .luxury {
   background-color: var(--Very-dark-cyan);
   height: 50vh;
@@ -98,6 +108,7 @@ h1 {
 
 .column {
   flex: 33%;
+  position: relative;
 }
 
 .attribution {
