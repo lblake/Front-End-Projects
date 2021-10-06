@@ -21,7 +21,7 @@
 
 body {
   font-size: 15px;
-  background: #f2f2f2;
+  background: var(--Very-light-gray);
 }
 
 img {
@@ -51,7 +51,7 @@ h1 {
   text-decoration: none;
   font-family: 'Big Shoulders Display', cursive;
   color: var(--Very-light-gray);
-  padding: 1em 2.2em;
+  padding: 0.75em 2.75em;
   border-radius: 100px;
   bottom: 20px;
   left: 35px;
@@ -62,35 +62,56 @@ h1 {
 .btn-sedans {
   color: var(--Bright-orange);
 }
+.btn-sedans:hover {
+  border: 1px solid white;
+  color: #fff;
+  background-color: var(--Bright-orange);
+}
 .sedans {
   background-color: var(--Bright-orange);
-  height: 50vh;
+  height: 55vh;
   border-radius: 8px 8px 0px 0px;
   padding-top: 50px;
   padding-left: 39px;
+  padding-right: 39px;
 }
 
 .btn-suvs {
   color: var(--Dark-cyan);
 }
+
+.btn-suvs:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: var(--Dark-cyan);
+}
+
 .suvs {
   background-color: var(--Dark-cyan);
-  height: 50vh;
+  height: 55vh;
   border-radius: 8px 8px 0px 0px;
   padding-top: 50px;
   padding-left: 39px;
-  /* margin-top: ; */
+  padding-right: 25px;
 }
 
 .btn-luxury {
   color: var(--Very-dark-cyan);
 }
+
+.btn-luxury:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: var(--Very-dark-cyan);
+}
+
 .luxury {
   background-color: var(--Very-dark-cyan);
-  height: 50vh;
+  height: 55vh;
   border-radius: 8px 8px 0px 0px;
   padding-top: 50px;
   padding-left: 39px;
+  padding-right: 39px;
 }
 
 .container {
@@ -121,7 +142,7 @@ h1 {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   .luxury {
     border-bottom-right-radius: 8px;
   }
@@ -134,13 +155,13 @@ h1 {
       flex: 100%;
     }
     .sedans {
-      height: 442px;
+      /* min-height: 600px; */
     }
     .suvs {
-      height: 442px;
+      /* min-height: 442px; */
     }
     .luxury {
-      height: 442px;
+      /* min-height: 442px; */
     }
   }
 }
