@@ -24,11 +24,6 @@ body {
   background: var(--Very-light-gray);
 }
 
-img {
-  /* position: absolute; */
-  /* margin-left: 2.65em; */
-  /* margin-top: 1.25em; */
-}
 p {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
@@ -115,12 +110,7 @@ h1 {
 .column {
   flex: 33%;
   position: relative;
-  /* height: 55vh; */
   border-radius: 8px 8px 0px 0px;
-  /* padding-top: 50px;
-  padding-left: 39px;
-  padding-right: 25px;
-  padding-bottom: 60px; */
   padding: 70px 30px;
   min-height: 600px;
 }
@@ -136,10 +126,10 @@ h1 {
 }
 
 @media screen and (min-width: 992px) {
-  .luxury {
+  #luxury {
     border-bottom-right-radius: 8px;
   }
-  .sedans {
+  #sedans {
     border-bottom-left-radius: 8px;
   }
 
