@@ -25,9 +25,9 @@ body {
 }
 
 img {
-  position: absolute;
-  margin-left: 2.65em;
-  margin-top: 1.25em;
+  /* position: absolute; */
+  /* margin-left: 2.65em; */
+  /* margin-top: 1.25em; */
 }
 p {
   font-family: 'Lexend Deca', sans-serif;
@@ -67,13 +67,8 @@ h1 {
   color: #fff;
   background-color: var(--Bright-orange);
 }
-.sedans {
+#sedans {
   background-color: var(--Bright-orange);
-  height: 55vh;
-  border-radius: 8px 8px 0px 0px;
-  padding-top: 50px;
-  padding-left: 39px;
-  padding-right: 39px;
 }
 
 .btn-suvs {
@@ -86,13 +81,8 @@ h1 {
   background-color: var(--Dark-cyan);
 }
 
-.suvs {
+#suvs {
   background-color: var(--Dark-cyan);
-  height: 55vh;
-  border-radius: 8px 8px 0px 0px;
-  padding-top: 50px;
-  padding-left: 39px;
-  padding-right: 25px;
 }
 
 .btn-luxury {
@@ -105,13 +95,8 @@ h1 {
   background-color: var(--Very-dark-cyan);
 }
 
-.luxury {
+#luxury {
   background-color: var(--Very-dark-cyan);
-  height: 55vh;
-  border-radius: 8px 8px 0px 0px;
-  padding-top: 50px;
-  padding-left: 39px;
-  padding-right: 39px;
 }
 
 .container {
@@ -130,6 +115,14 @@ h1 {
 .column {
   flex: 33%;
   position: relative;
+  /* height: 55vh; */
+  border-radius: 8px 8px 0px 0px;
+  /* padding-top: 50px;
+  padding-left: 39px;
+  padding-right: 25px;
+  padding-bottom: 60px; */
+  padding: 70px 30px;
+  min-height: 600px;
 }
 
 .attribution {
@@ -153,15 +146,7 @@ h1 {
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
-    }
-    .sedans {
-      /* min-height: 600px; */
-    }
-    .suvs {
-      /* min-height: 442px; */
-    }
-    .luxury {
-      /* min-height: 442px; */
+      min-height: 450px;
     }
   }
 }
