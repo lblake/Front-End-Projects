@@ -132,11 +132,18 @@ h1 {
   #sedans {
     border-bottom-left-radius: 8px;
   }
+}
 
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      min-height: 450px;
-    }
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    min-height: 450px;
+  }
+
+  #luxury {
+    border-radius: 0px 0px 8px 8px;
+  }
+  #suvs {
+    border-radius: 0px 0px 0px 0px;
   }
 }
