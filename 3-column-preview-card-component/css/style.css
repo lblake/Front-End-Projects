@@ -58,7 +58,7 @@ h1 {
   color: var(--Bright-orange);
 }
 .btn-sedans:hover {
-  border: 1px solid white;
+  border: 2px solid white;
   color: #fff;
   background-color: var(--Bright-orange);
 }
@@ -71,7 +71,7 @@ h1 {
 }
 
 .btn-suvs:hover {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   color: #fff;
   background-color: var(--Dark-cyan);
 }
@@ -85,7 +85,7 @@ h1 {
 }
 
 .btn-luxury:hover {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   color: #fff;
   background-color: var(--Very-dark-cyan);
 }
