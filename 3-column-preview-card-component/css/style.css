@@ -52,6 +52,7 @@ h1 {
   left: 35px;
   position: absolute;
   cursor: pointer;
+  border: 2px solid transparent;
 }
 
 .btn-sedans {
@@ -61,9 +62,11 @@ h1 {
   border: 2px solid white;
   color: #fff;
   background-color: var(--Bright-orange);
+  transition: all 0.2s;
 }
 #sedans {
   background-color: var(--Bright-orange);
+  min-height: 500px;
 }
 
 .btn-suvs {
@@ -74,10 +77,12 @@ h1 {
   border: 2px solid #fff;
   color: #fff;
   background-color: var(--Dark-cyan);
+  transition: all 0.2s;
 }
 
 #suvs {
   background-color: var(--Dark-cyan);
+  min-height: 500px;
 }
 
 .btn-luxury {
@@ -88,10 +93,12 @@ h1 {
   border: 2px solid #fff;
   color: #fff;
   background-color: var(--Very-dark-cyan);
+  transition: all 0.2s;
 }
 
 #luxury {
   background-color: var(--Very-dark-cyan);
+  min-height: 500px;
 }
 
 .container {
