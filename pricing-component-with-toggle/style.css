@@ -1,0 +1,86 @@
+:root{
+   /* Primary */
+ --Linear-Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+
+ /* Neutral */
+
+--Very-Light-Grayish-Blue: hsl(240, 78%, 98%)
+--Light-Grayish-Blue: hsl(234, 14%, 74%)
+--Grayish-Blue: hsl(233, 13%, 49%)
+--Dark-Grayish-Blue: hsl(232, 13%, 33%)
+
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+    text-align: center
+}
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 200px;
+	height: 100px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 90px;
+	height: 90px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #bada55;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 130px;
+}
+
+
+
+
+
+
+body {
+  font-size: 15px;
+  font-family:Montserrat,sans-serif;
+  font-weight: 700;
+  
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
