@@ -1,13 +1,13 @@
 :root {
   /* Primary */
-  --Linear-gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+  --linear-gradient: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 
   /* Neutral */
 
-  --Very-light-grayish-blue: hsl(240, 78%, 98%);
-  --Light-grayish-blue: hsl(234, 14%, 74%);
-  --Grayish-blue: hsl(233, 13%, 49%);
-  --Dark-grayish-blue: hsl(232, 13%, 33%);
+  --very-light-grayish-blue: hsl(240, 78%, 98%);
+  --light-grayish-blue: hsl(234, 14%, 74%);
+  --grayish-blue: hsl(233, 13%, 49%);
+  --dark-grayish-blue: hsl(232, 13%, 33%);
 }
 
 *,
@@ -52,28 +52,87 @@ label {
   vertical-align: middle;
   margin: 10px 0;
 }
-.switch input
-{
-    opacity: 0;
-    width: 0;
-    height: 0;
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
-.slider
-{
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #1e2321;
-    transition:0.6s ease transform,
-    0.6s box-shadow;
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--linear-gradient);
+  transition: 0.6s ease transform;
+  /* 0.6s box-shadow;
     box-shadow: 2px 6px 20px #1e2321;
-    transform: translate(0px, 0px);
+    transform: translate(0px, 0px); */
+}
+.slider::before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--very-light-grayish-blue);
+  transition: 0.4s;
 }
 
+input:checked + .slider {
+  background: var(--linear-gradient);
+}
+
+input:checked + .slider::before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round::before {
+  border-radius: 50%;
+}
+
+.package-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.packages {
+  margin: 20px;
+  width: 300px;
+  padding-bottom: 2.4em;
+  height: 100%;
+  background: var(--linear-gradient);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
+  flex-wrap: wrap;
+  color: var(--grayish-blue);
+}
+
+.packages__outter__colour {
+  background: var(--very-light-grayish-blue);
+}
+
+.list li {
+  font-size: 20px;
+  list-style: none;
+  border-bottom: 1px solid var(--grayish-blue);
+  padding-inline-start: 0;
+  border-width: 1px;
+  padding: 10px;
+}
 
 /* input[type='checkbox'] {
   height: 0;
