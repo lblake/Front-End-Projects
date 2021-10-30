@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); */
 :root {
   /* Primary */
   --linear-gradient: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
@@ -18,7 +19,7 @@
 
 body {
   font-size: 15px;
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
@@ -28,10 +29,18 @@ h1 {
 }
 h2.text1 {
   margin-bottom: 1px;
+  font-size: 72px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dollar {
+  font-size: 40px;
 }
 
 h2.text2 {
   margin-bottom: 1px;
+  font-size: 72px;
+  font-family: 'Montserrat', sans-serif;
 }
 span {
   color: var(--grayish-blue);
