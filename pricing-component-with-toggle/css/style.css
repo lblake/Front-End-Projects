@@ -57,6 +57,7 @@ ul {
   margin-top: 10px;
 }
 .button {
+  border: 1px solid transparent;
   text-transform: uppercase;
   border-radius: 5px;
 }
@@ -78,6 +79,13 @@ ul {
   text-decoration: none;
   display: inline-block;
 }
+.button_white:hover {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: var(--linear-gradient);
+  transition: all 0.2s;
+}
+
 .container {
   width: 100%;
 }
@@ -95,6 +103,16 @@ ul {
   height: 34px;
 }
 
+.learn {
+  width: 105px;
+  height: 16px;
+  top: 14px;
+  left: 91px;
+  font-size: 13px;
+  line-height: 15.85px;
+  letter-spacing: 1.39px;
+  font-weight: 700;
+}
 input,
 label {
   display: inline-block;
@@ -165,7 +183,7 @@ input:checked + .slider::before {
   align-items: center;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2);
+  /* box-shadow: 0 19px 38px rgba(30, 35, 33, 1), 0 15px 12px rgba(30, 35, 33, 0.2); */
   flex-wrap: wrap;
   color: var(--grayish-blue);
 }
