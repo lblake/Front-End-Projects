@@ -29,25 +29,46 @@ h1 {
 }
 h2.text1 {
   margin-bottom: 1px;
+  margin-top: 2px;
   font-size: 72px;
   font-family: 'Montserrat', sans-serif;
 }
 
+.heading_basic {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--grayish-blue);
+}
+
+.heading_master {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--grayish-blue);
+}
 .dollar {
   font-size: 40px;
 }
 
+.text_dark {
+  color: var(--dark-grayish-blue);
+}
 h2.text2 {
   margin-bottom: 1px;
   font-size: 72px;
   font-family: 'Montserrat', sans-serif;
 }
+
 span {
-  color: var(--grayish-blue);
+  /* color: var(--grayish-blue); */
 }
 
 ul {
   padding-left: 0px;
+}
+
+.back {
+  color: var(--grayish-blue);
+  margin: 0 24px 0 24px;
 }
 
 /* #white_heading {
@@ -60,15 +81,6 @@ ul {
   border: 1px solid transparent;
   text-transform: uppercase;
   border-radius: 5px;
-}
-
-.button_gradient {
-  background: var(--linear-gradient);
-  color: var(--very-light-grayish-blue);
-  padding: 15px 82px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
 
 .button_white {
@@ -86,6 +98,21 @@ ul {
   transition: all 0.2s;
 }
 
+.button_gradient {
+  background: var(--linear-gradient);
+  color: var(--very-light-grayish-blue);
+  padding: 15px 82px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button_gradient:hover {
+  border: 1px solid#6d72de;
+  color: #6d72de;
+  background-color: #fff;
+  transition: all 0.2s;
+}
 .container {
   width: 100%;
 }
@@ -173,8 +200,8 @@ input:checked + .slider::before {
 }
 
 .packages {
-  margin: 20px;
-  width: 300px;
+  margin: 31px 29px;
+  width: 327px;
   padding-bottom: 2.4em;
   height: 100%;
   background: var(--linear-gradient);
@@ -196,9 +223,11 @@ input:checked + .slider::before {
 }
 
 .list > li {
-  font-size: 20px;
+  font-size: 15px;
+  line-height: 28px;
   list-style: none;
-  border-bottom: 2px solid var(--light-grayish-blue);
+  border-bottom: 1px solid var(--light-grayish-blue);
+  border-bottom-width: 269px;
   padding-inline-start: 0;
   border-width: 1px;
   padding: 10px;
