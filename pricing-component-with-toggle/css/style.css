@@ -110,7 +110,7 @@ ul {
 .button_gradient:hover {
   border: 1px solid#6d72de;
   color: #6d72de;
-  background-color: #fff;
+  background: #fff;
   transition: all 0.2s;
 }
 .container {
@@ -227,7 +227,7 @@ input:checked + .slider::before {
   line-height: 28px;
   list-style: none;
   border-bottom: 1px solid var(--light-grayish-blue);
-  border-bottom-width: 269px;
+  width: 269px;
   padding-inline-start: 0;
   border-width: 1px;
   padding: 10px;
