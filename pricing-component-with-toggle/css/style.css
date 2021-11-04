@@ -23,6 +23,11 @@ body {
   font-weight: 700;
 }
 
+.container {
+  background-image: url('../images/bg-top.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
 h1 {
   text-align: center;
   color: var(--grayish-blue);
@@ -34,6 +39,12 @@ h2.text1 {
   font-family: 'Montserrat', sans-serif;
 }
 
+h2.text2 {
+  margin-bottom: 1px;
+  margin-top: 2px;
+  font-size: 72px;
+  font-family: 'Montserrat', sans-serif;
+}
 .heading_basic {
   font-size: 18px;
   line-height: 28px;
@@ -45,6 +56,13 @@ h2.text1 {
   line-height: 28px;
   color: var(--grayish-blue);
 }
+
+.heading_professional {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
 .dollar {
   font-size: 40px;
 }
@@ -52,15 +70,10 @@ h2.text1 {
 .text_dark {
   color: var(--dark-grayish-blue);
 }
-h2.text2 {
-  margin-bottom: 1px;
-  font-size: 72px;
-  font-family: 'Montserrat', sans-serif;
-}
 
-span {
-  /* color: var(--grayish-blue); */
-}
+/* span {
+  color: var(--grayish-blue);
+} */
 
 ul {
   padding-left: 0px;
