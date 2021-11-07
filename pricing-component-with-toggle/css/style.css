@@ -3,7 +3,6 @@
   --linear-gradient: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
 
   /* Neutral */
-
   --very-light-grayish-blue: hsl(240, 78%, 98%);
   --light-grayish-blue: hsl(234, 14%, 74%);
   --grayish-blue: hsl(233, 13%, 49%);
@@ -287,6 +286,12 @@ input:checked + .slider::before {
 @media screen and (min-width: 700px) {
   .bottom_image {
     display: block;
+  }
+  .professional_list {
+    margin-top: 10px;
+  }
+  .heading_professional {
+    margin-top: 40px;
   }
 }
 
