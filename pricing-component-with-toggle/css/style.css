@@ -221,7 +221,7 @@ input:checked + .slider::before {
   margin-bottom: 32px;
   width: 326px;
   padding-bottom: 2.4em;
-  height: 454px;
+  height: auto;
   background: var(--linear-gradient);
   display: flex;
   flex-direction: column;
