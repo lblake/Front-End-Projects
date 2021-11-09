@@ -19,9 +19,10 @@ This is a solution to the [Pricing Component with Toggle](https://www.frontendme
 
 Users should be able to:
 
-- See hover states for interactive elements
+- View the optimal layout for the component depending on their device's screen size
+- Control the toggle with both their mouse/trackpad and their keyboard
 
-### Screenshots
+### Screenshot
 
 ![image](./images/pricing-component-annually-screenshot.png)
 ![image](./images/pricing-component-monthly-screenshot.png)
@@ -29,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/order-summary-component-uROSKgAYm)
+- Solution URL: (https://www.frontendmentor.io/solutions/frontendmentorpricingcomponentwithtoggle-4yAJ7SitA)
 - Live Site URL:(https://frontend-mentor-order-summary-component.netlify.app/)
 
 
