@@ -1,6 +1,6 @@
 # Frontend Mentor - Pricing Component with Toggle solution
 
-This is a solution to the [Pricing Component with Toggle](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) &nbsp;  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Pricing Component with Toggle](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC) &nbsp;  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
