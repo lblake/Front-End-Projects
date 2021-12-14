@@ -1,6 +1,6 @@
 # Frontend Mentor 3-Column-Preview-Card-Component Challenge
 
-This is my solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). &nbsp;  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). &nbsp;  Frontend Mentor challenges helped me improve my coding skills by building realistic projects. 
 
 ## Table of contents
 
