@@ -25,6 +25,8 @@ Users should be able to:
 ### Screenshot
 
 ![image](./images/Completed-Desktop-Frontend-Mentor-3-column-preview-card.png)
+![image](./images/Completed-Mobile-Frontend-Mentor-3-column-preview-card.png)
+
 
 
 ### Links
