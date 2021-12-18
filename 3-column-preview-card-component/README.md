@@ -6,7 +6,7 @@ This is my solution to the [3-column preview card component challenge on Fronten
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -22,7 +22,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
 ![image](./images/Completed-Desktop-Frontend-Mentor-3-column-preview-card.png)
 ![image](./images/Completed-Mobile-Frontend-Mentor-3-column-preview-card.png)
