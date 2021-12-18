@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/frontendmentorpricingcomponentwithtoggle-4yAJ7SitA)
-- Live Site URL:(https://frontend-mentor-order-summary-component.netlify.app/)
+- Live Site URL:(https://frontend-mentor-pricing-component-with-toggle.netlify.app/)
 
 
 ### Built with
